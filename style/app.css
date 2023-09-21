@@ -224,9 +224,8 @@ main {
 .craft {
   display: flex;
   margin: 52px;
-  background: url("/res/img/img_craft_background_pc.png") no-repeat;
   background-size: cover;
-  background-position: center;
+  background: url("../res/img/img_craft_background_pc.png") no-repeat center;
 }
 .craft__container {
   width: 100%;
@@ -348,7 +347,7 @@ footer {
   content: "";
   width: 18px;
   height: 14px;
-  background: url("/res/img/ic_selector_flag_usa.png");
+  background: url("../res/img/ic_selector_flag_usa.png");
 }
 
 * {
@@ -515,8 +514,7 @@ h5 {
     padding: 0 16px;
     width: 100%;
     height: 375px;
-    background: url("/res/img/img_craft_background_mobile.png") no-repeat;
-    background-position: center;
+    background: url("../res/img/img_craft_background_mobile.png") no-repeat center;
   }
   .craft__container {
     padding: 98px 24px;
