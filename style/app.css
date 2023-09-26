@@ -15,7 +15,6 @@ header {
   cursor: pointer;
   text-decoration: underline 1px;
 }
-
 .header-icon__buttons {
   display: flex;
   gap: 20px;
@@ -23,13 +22,11 @@ header {
 .header-icon__buttons img {
   cursor: pointer;
 }
-
 .header__mobile-menu {
   display: none;
   width: 24px;
   height: 24px;
 }
-
 .header__bucket {
   display: flex;
   align-items: center;
@@ -87,8 +84,8 @@ main {
 .brands-cover {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #D0D5DD;
-  border-top: 1px solid #D0D5DD;
+  border-bottom: 1px solid #DADCE0;
+  border-top: 1px solid #DADCE0;
   padding: 56px 0;
   margin: 52px;
 }
@@ -173,7 +170,7 @@ main {
 .sales-right__button {
   padding: 10px 24px;
   background: #282828;
-  color: #FFFFFF;
+  color: white;
 }
 
 .newsletter {
@@ -203,7 +200,7 @@ main {
   margin: 24px 0 0 0;
   max-width: 460px;
   width: 90%;
-  border-bottom: 1px solid #D0D5DD;
+  border-bottom: 1px solid #DADCE0;
 }
 .newsletter__input-form__input {
   border: none;
@@ -272,7 +269,7 @@ footer {
 .icon-holder {
   width: 36px;
   height: 36px;
-  background: #FFFFFF;
+  background: white;
   border-radius: 100px;
   display: flex;
   flex-direction: row;
@@ -331,7 +328,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #D0D5DD;
+  border-top: 1px solid #DADCE0;
   padding-top: 24px;
 }
 .footer__bottom__selectors {
@@ -445,6 +442,12 @@ h5 {
   .arroys {
     display: none;
   }
+  .sales {
+    margin: 0;
+  }
+  .sales-right {
+    padding: 16px 16px 24px 16px;
+  }
   footer {
     padding: 36px;
     gap: 36px;
@@ -479,12 +482,6 @@ h5 {
   }
   .banner-grid {
     padding: 24px 16px;
-  }
-  .sales {
-    margin: 0;
-  }
-  .sales-right {
-    padding: 16px 16px 24px 16px;
   }
   .newsletter {
     margin: 16px;

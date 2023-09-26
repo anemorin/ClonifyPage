@@ -6,41 +6,42 @@ header
   justify-content: space-between
   padding: 16px 52px
 
-.header__nav-menu
-  display: flex
-  gap: 40px
-
-  button:hover
-    cursor: pointer
-    text-decoration: underline 1px
-
-.header-icon__buttons
-  display: flex
-  gap: 20px
-
-  img
-    cursor: pointer
-
-.header__mobile-menu
-  display: none
-  width: 24px
-  height: 24px
-
-.header__bucket
-  display: flex
-  align-items: center
-
-  &::after
-    margin-left: 6px
-    content: "2"
+.header
+  &__nav-menu
     display: flex
-    justify-content: center
+    gap: 40px
+
+    button:hover
+      cursor: pointer
+      text-decoration: underline 1px
+
+  &-icon__buttons
+    display: flex
+    gap: 20px
+
+    img
+      cursor: pointer
+
+  &__mobile-menu
+    display: none
+    width: 24px
+    height: 24px
+
+  &__bucket
+    display: flex
     align-items: center
-    background: #282828
-    border-radius: 50%
-    width: 20px
-    height: 20px
-    color: white
-    font-size: 12px
-    font-weight: 700
+
+    &::after
+      margin-left: 6px
+      content: "2"
+      display: flex
+      justify-content: center
+      align-items: center
+      background: #282828
+      border-radius: 50%
+      width: 20px
+      height: 20px
+      color: white
+      font-size: 12px
+      font-weight: 700
 
