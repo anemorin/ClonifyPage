@@ -1,4 +1,4 @@
-@media only screen and (max-width: 750px)
+@media (max-width: 1023px)
   header
     width: 100%
     padding: 8px 16px
@@ -32,6 +32,23 @@
     &-right
       padding: 16px 16px 24px 16px
 
+  .main-cover
+    flex-direction: column
+
+    img
+      width: 100%
+
+    &__text__container
+      width: auto
+
+  .sales
+    flex-direction: column
+    img
+      width: 100%
+
+    &-right
+      max-width: 100%
+
   footer
     padding: 36px
     gap: 36px
@@ -39,7 +56,30 @@
   .footer__content__right
     display: none
 
-@media only screen and (max-width: 450px)
+  .footer__bottom
+    padding-top: 0
+    border: none
+
+  .footer__content__mobile-selectors
+    display: flex
+    flex-direction: column
+    width: 100%
+
+    div
+      padding: 10px 0
+      display: flex
+      align-items: center
+      justify-content: space-between
+      border-bottom: 1px solid $light-gray
+
+      &::after
+        content: ""
+        width: 20px
+        height: 20px
+        background: url("/res/img/ic_selectors_arroy.svg") no-repeat center
+
+
+@media (max-width: 480px)
   img
     width: 100%
 
@@ -91,11 +131,11 @@
       background: #282828
 
   .craft
-    margin: 24px 0
+    margin: 24px 16px
     padding: 0 16px
-    width: 100%
     height: 375px
     background: url("../res/img/img_craft_background_mobile.png") no-repeat center
+    background-size: cover
 
     &__container
       padding: 98px 24px
@@ -112,8 +152,11 @@
     &__right
       display: none
 
-    &__left__icons-container
-      justify-content: center
+    &__left
+      width: 100%
+
+      &__icons-container
+        justify-content: center
 
   .footer__bottom
     flex-direction: column-reverse
