@@ -91,6 +91,7 @@ main {
 }
 .brands-cover__container {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 48px;
@@ -521,7 +522,7 @@ h5 {
     justify-content: center;
   }
   .brands-cover__container img {
-    width: 100px;
+    width: auto;
   }
   .banner-grid {
     padding: 24px 16px;
